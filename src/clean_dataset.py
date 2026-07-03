@@ -1,7 +1,6 @@
 import os
 from PIL import Image
 
-# Change this only if your dataset folder has a different name
 DATASET_PATH = "../dataset/dogs-vs-cats-classification"
 
 bad_files = []

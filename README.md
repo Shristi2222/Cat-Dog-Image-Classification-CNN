@@ -1,10 +1,11 @@
-Cat vs Dog Image Classification using Convolutional Neural Networks (CNN)
-Project Overview
+# Cat vs Dog Image Classification using Convolutional Neural Networks (CNN)
+
+## Project Overview
 This project implements a Convolutional Neural Network (CNN) for binary image classification to distinguish between cats and dogs. The model was developed using TensorFlow/Keras and trained on a labeled image dataset. The project includes data preprocessing, dataset cleaning, model training, evaluation, and prediction on new images.
 The primary objective of this project is to understand the complete deep learning workflow for image classification, from preparing datasets to deploying a trained model for inference.
 
 
-Features
+## Features
 Image classification using a custom CNN
 Dataset cleaning to identify and remove corrupted images
 Image preprocessing and normalization
@@ -15,7 +16,7 @@ Prediction on custom images
 Visualization of training accuracy and loss
 Well-organized project structure suitable for GitHub
 
-Technologies Used
+## Technologies Used
 Python 3.12
 TensorFlow / Keras
 NumPy
@@ -23,7 +24,7 @@ Matplotlib
 Pillow
 Visual Studio Code
 
-Project Structure
+## Project Structure
 Cat-Dog-Image-Classification-CNN/
 │
 ├── src/
@@ -48,7 +49,7 @@ Cat-Dog-Image-Classification-CNN/
 └── .gitignore
 
 
-Dataset
+## Dataset
 
 The project uses the Dogs vs Cats image dataset.
 
@@ -70,7 +71,7 @@ dogs-vs-cats-classification/
 
 
 
-CNN Architecture
+## CNN Architecture
 
 The implemented CNN consists of:
 
@@ -86,17 +87,7 @@ Dropout (0.5)
 Output Layer (Sigmoid)
 
 
-Model Configuration
-Parameter	Value
-Image Size	128 × 128
-Batch Size	32
-Epochs	10
-Optimizer	Adam
-Loss Function	Binary Crossentropy
-Output Activation	Sigmoid
-
-
-Training
+## Training
 
 Run the following command:
 
@@ -112,7 +103,7 @@ Generates accuracy and loss curves
 
 
 
-Prediction
+## Prediction
 
 To classify a new image:
 
@@ -122,7 +113,7 @@ Enter the full image path when prompted.
 
 
 
-Results
+## Results
 
 The trained model is capable of classifying cats and dogs with high accuracy on the test dataset.
 
